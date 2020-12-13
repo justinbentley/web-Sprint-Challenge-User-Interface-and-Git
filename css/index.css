@@ -259,3 +259,50 @@ footer nav a {
 
 .logo{
 }
+
+.top-content,h2,p {
+    margin:2%;
+}
+
+.learn {
+    font-size:18px;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:10px 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.sec-1{
+    display:flex;
+}
+
+.box-format{
+    padding-bottom:20px;
+    border-bottom: 2px dotted black;
+    margin:10px;
+}
+.box-format button{
+    margin-top:10px;
+}
+
+.container, .about-page{
+    
+}
+.top-content{
+    margin:10px;
+}
+
+.footer-nav a{
+    color:white;
+}
+
+.footer{
+    margin:0;
+    padding:0;
+
+}
+.about-top-content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: ;
+}
