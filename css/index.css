@@ -201,26 +201,21 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -229,54 +224,43 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
-
 .header-nav{
-    padding:20px 0px 20px 0px;
     font-family: 'Rubik', sans-serif;
     width:800px;
     justify-content: center;
-    margin:auto;
-    
+    margin:auto;  
 }
-
 .nav-bar{
     display:flex;
     width:800px;
     justify-content: space-between;
     align-items: baseline;
-    margin:20px;
+    margin:0px 0px 37px 0px;
+    padding-top:2.5%;
 }
-
 .header-nav a {
     color:black;
-    text-decoration: none;
+    text-decoration: none;    
 }
-
-.logo{
-}
-
-.top-content,h2,p {
+.about-top-content,h2,p {
     margin:2%;
 }
-
 .learn {
+    margin-left:2px;
     font-size:18px;
     border:2px solid black;
     border-radius: 10px;
-    padding:10px 25px;
+    padding:7px 25px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
-
 .sec-1{
     display:flex;
 }
-
 .box-format{
     padding-bottom:20px;
     border-bottom: 2px dotted black;
@@ -285,24 +269,35 @@ footer nav a {
 .box-format button{
     margin-top:10px;
 }
-
-.container, .about-page{
-    
+.about-top-content{
+    padding:4px;
 }
-.top-content{
-    margin:10px;
-}
-
 .footer-nav a{
     color:white;
 }
-
 .footer{
     margin:0;
     padding:0;
-
 }
 .about-top-content{
     font-family: 'Roboto', sans-serif;
-    font-weight: ;
+    margin:0px;
+}
+.about-top-content{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;*/
+}
+.box-format p {
+    padding-top:5px;
+    padding-bottom:2px;
+}
+.box-format h2 {
+    padding-top:2px;
+}
+.lower-boxes{
+    padding-top: 40px;
+}
+.last-p{
+    padding-top:3%;
+    padding-bottom:3%;    
 }
